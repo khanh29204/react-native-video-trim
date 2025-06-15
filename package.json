@@ -33,16 +33,6 @@
     "!**/__mocks__",
     "!**/.*"
   ],
-  "scripts": {
-    "example": "yarn workspace react-native-video-trim-example",
-    "test": "jest",
-    "typecheck": "tsc",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
-    "prepare": "bob build",
-    "nitrogen": "nitro-codegen",
-    "release": "release-it --only-version"
-  },
   "keywords": [
     "react-native",
     "ios",

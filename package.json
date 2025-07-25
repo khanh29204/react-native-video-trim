@@ -3,7 +3,6 @@
   "version": "5.0.2",
   "description": "Video trimmer for your React Native app",
   "main": "./lib/module/index.js",
-  "private": true,
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {

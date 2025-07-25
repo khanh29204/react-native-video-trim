@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
@@ -33,7 +32,6 @@ import android.widget.VideoView;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.arthenica.ffmpegkit.FFmpegSession;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReadableMap;
 import com.videotrim.R;
@@ -46,11 +44,11 @@ import com.videotrim.utils.VideoTrimmerUtil;
 
 import java.io.IOException;
 import java.util.Locale;
-import java.util.Objects;
 
 import iknow.android.utils.DeviceUtil;
 import iknow.android.utils.thread.BackgroundExecutor;
 import iknow.android.utils.thread.UiThreadExecutor;
+import com.arthenica.ffmpegkit.FFmpegSession;
 
 public class VideoTrimmerView extends FrameLayout implements IVideoTrimmerView {
 
@@ -89,9 +87,6 @@ public class VideoTrimmerView extends FrameLayout implements IVideoTrimmerView {
   private RelativeLayout trimmerContainerWrapper;
 
   private long startTime = 0, endTime = 0;
-  private boolean enableRotation = false;
-  private double rotationAngle = 0.0;
-
   private Vibrator vibrator;
   private boolean didClampWhilePanning = false;
 
@@ -379,8 +374,6 @@ public class VideoTrimmerView extends FrameLayout implements IVideoTrimmerView {
       mDuration,
       startTime,
       endTime,
-      enableRotation,
-      rotationAngle,
       mOnTrimVideoListener
     );
   }
@@ -453,46 +446,78 @@ public class VideoTrimmerView extends FrameLayout implements IVideoTrimmerView {
   }
 
   private void configure(ReadableMap config) {
-    if (config.hasKey("maxDuration") && config.getDouble("maxDuration") > 0) {
-      mMaxDuration = (long) Math.max(0, config.getDouble("maxDuration") * 1000L);
+    if (config.hasKey("maxDuration")) {
+      mMaxDuration = Math.max(0, config.getInt("maxDuration") * 1000L);
+    }
+    if (config.hasKey("minDuration")) {
+      mMinDuration = Math.max(1000L, config.getInt("minDuration") * 1000L);
+    }
+    if (config.hasKey("cancelButtonText")) {
+      cancelBtn.setText(config.getString("cancelButtonText"));
+    }
+    if (config.hasKey("saveButtonText")) {
+      saveBtn.setText(config.getString("saveButtonText"));
     }
 
-    if (config.hasKey("minDuration") && config.getDouble("minDuration") > 0) {
-      mMinDuration = (long) Math.max(1000L, config.getDouble("minDuration") * 1000L);
+    if (config.hasKey("type")) {
+      isVideoType = !config.getString("type").equals("audio");
+
+//      if (!isVideoType) {
+//        mThumbnailContainer.setAlpha(0f);
+//        mThumbnailContainer.setBackground(ContextCompat.getDrawable(mContext, R.drawable.thumb_container_bg));
+//      }
     }
 
-    cancelBtn.setText(config.getString("cancelButtonText"));
-    saveBtn.setText(config.getString("saveButtonText"));
-    isVideoType = config.hasKey("type") && Objects.equals(config.getString("type"), "video");
-    System.out.println("1111 isVideoType: " + isVideoType);
-
-    mOutputExt = config.hasKey("outputExt") ? config.getString("outputExt") : "mp4";
-    if (!isVideoType) {
+    if (config.hasKey("outputExt")) {
+      mOutputExt = config.getString("outputExt");
+    } else if (!isVideoType) {
       mOutputExt = "wav";
     }
-    enableHapticFeedback = config.hasKey("enableHapticFeedback") && config.getBoolean("enableHapticFeedback");
-    autoplay = config.hasKey("autoplay") && config.getBoolean("autoplay");
 
-    if (config.hasKey("jumpToPositionOnLoad") && config.getDouble("jumpToPositionOnLoad") > 0) {
-      jumpToPositionOnLoad = (long) Math.max(0, config.getDouble("jumpToPositionOnLoad") * 1000L);
-    }
-    headerText.setText(config.hasKey("headerText") ? config.getString("headerText") : "");
-
-    int textSize = config.hasKey("headerTextSize") ? config.getInt("headerTextSize") : 16;
-    if (textSize < 0) {
-      textSize = 16;
+    if (config.hasKey("enableHapticFeedback")) {
+      enableHapticFeedback = config.getBoolean("enableHapticFeedback");
     }
 
-    headerText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, textSize);
-    headerText.setTextColor(config.hasKey("headerTextColor") ? config.getInt("headerTextColor") : Color.BLACK);
+    if (config.hasKey("autoplay")) {
+      autoplay = config.getBoolean("autoplay");
+    }
 
-    headerView.setVisibility(View.VISIBLE);
-    alertOnFailToLoad = config.hasKey("alertOnFailToLoad") && config.getBoolean("alertOnFailToLoad");
-    alertOnFailTitle = config.hasKey("alertOnFailTitle") ? config.getString("alertOnFailTitle") : "Error";
-    alertOnFailMessage = config.hasKey("alertOnFailMessage") ? config.getString("alertOnFailMessage") : "Fail to load media. Possibly invalid file or no network connection";
-    alertOnFailCloseText = config.hasKey("alertOnFailCloseText") ? config.getString("alertOnFailCloseText") : "Close";
-    enableRotation = config.hasKey("enableRotation") && config.getBoolean("enableRotation");
-    rotationAngle = config.hasKey("rotationAngle") ? config.getDouble("rotationAngle") : 0.0;
+    if (config.hasKey("jumpToPositionOnLoad")) {
+      jumpToPositionOnLoad = config.getInt("jumpToPositionOnLoad");
+    }
+    // check if config.getString("headerText") is not empty
+
+    if (config.hasKey("headerText") && !config.getString("headerText").isEmpty()){
+      headerText.setText(config.getString("headerText"));
+
+      if (config.hasKey("headerTextSize")) {
+        int textSize = config.getInt("headerTextSize");
+        if (textSize < 0) {
+          textSize = 16;
+        }
+        headerText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, textSize);
+      }
+
+      if (config.hasKey("headerTextColor")) {
+        headerText.setTextColor(config.getInt("headerTextColor"));
+      }
+
+      headerView.setVisibility(View.VISIBLE);
+    }
+
+    alertOnFailToLoad = !config.hasKey("alertOnFailToLoad") || config.getBoolean("alertOnFailToLoad");
+
+    if (config.hasKey("alertOnFailTitle")) {
+      alertOnFailTitle = config.getString("alertOnFailTitle");
+    }
+
+    if (config.hasKey("alertOnFailMessage")) {
+      alertOnFailMessage = config.getString("alertOnFailMessage");
+    }
+
+    if (config.hasKey("alertOnFailCloseText")) {
+      alertOnFailCloseText = config.getString("alertOnFailCloseText");
+    }
   }
 
   private void startTimingRunnable() {

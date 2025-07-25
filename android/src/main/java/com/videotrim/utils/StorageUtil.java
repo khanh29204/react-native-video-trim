@@ -8,9 +8,7 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.text.TextUtils;
-
 import com.facebook.react.bridge.ReactApplicationContext;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/xml/file_paths.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/xml/rn_dev_preferences.xml",
+        "source": "com.videotrim.react-native-video-trim-jetified-react-android-0.73.8-release-14:/xml/rn_dev_preferences.xml"
+    }
+]

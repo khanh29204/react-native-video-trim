@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:1:70-93
+		INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:3:3-64
+	android:name
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:3:20-61
+application
+ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:5:3-16:17
+provider#androidx.core.content.FileProvider
+ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:7:5-15:16
+	android:grantUriPermissions
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:11:7-41
+	android:authorities
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:9:7-54
+	android:exported
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:10:7-31
+	android:name
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:8:7-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:12:7-14:46
+	android:resource
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:14:9-43
+	android:name
+		ADDED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml:13:9-59
+uses-sdk
+INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml
+INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/khanh/Downloads/locket/locket_upload/node_modules/react-native-video-trim/android/src/main/AndroidManifest.xml

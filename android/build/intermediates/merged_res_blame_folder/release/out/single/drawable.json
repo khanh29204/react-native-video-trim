@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/test_level_drawable.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/test_level_drawable.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/tooltip_frame_light.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/rounded_progress_indicator.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/rounded_progress_indicator.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_seekbar_track_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_check_material_anim.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_radio_on_mtrl.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/notification_tile_bg.xml",
+        "source": "com.videotrim.react-native-video-trim-core-1.9.0-22:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_radio_off_mtrl.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_star_black_48dp.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/chevron_compact_right.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/chevron_compact_right.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/rounded_yellow_right_background.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/rounded_yellow_right_background.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_tab_indicator_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/notification_icon_background.xml",
+        "source": "com.videotrim.react-native-video-trim-core-1.9.0-22:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/airpodsmax.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/airpodsmax.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_clear_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_borderless_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/exclamationmark_triangle_fill.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/exclamationmark_triangle_fill.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_radio_material_anim.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_textfield_search_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/play_fill.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/play_fill.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_text_cursor_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/rounded_yellow_left_background.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/rounded_yellow_left_background.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_star_half_black_48dp.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/chevron_compact_left.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/chevron_compact_left.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_cab_background_internal_bg.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/notification_bg_low.xml",
+        "source": "com.videotrim.react-native-video-trim-core-1.9.0-22:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_switch_thumb_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_go_search_api_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_list_selector_holo_dark.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_seekbar_thumb_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/thumb_container_bg.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/thumb_container_bg.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_cab_background_top_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/redbox_top_border_background.xml",
+        "source": "com.videotrim.react-native-video-trim-jetified-react-android-0.73.8-release-14:/drawable/redbox_top_border_background.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_search_api_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/yellow_border.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/yellow_border.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ratingbar_small_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/tooltip_frame_dark.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_radio_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_item_background_holo_light.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/pause_fill.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/pause_fill.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/chevron_right_with_bg.xml",
+        "source": "com.videotrim.react-native-video-trim-main-28:/drawable/chevron_right_with_bg.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_list_selector_holo_light.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_vector_test.xml",
+        "source": "com.videotrim.react-native-video-trim-jetified-appcompat-resources-1.6.1-20:/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ratingbar_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_item_background_holo_dark.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_btn_check_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/notification_bg.xml",
+        "source": "com.videotrim.react-native-video-trim-core-1.9.0-22:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.videotrim.react-native-video-trim-merged_res-27:/drawable/abc_ic_ab_back_material.xml",
+        "source": "com.videotrim.react-native-video-trim-appcompat-1.6.1-6:/drawable/abc_ic_ab_back_material.xml"
+    }
+]

@@ -1,7 +1,9 @@
 package com.videotrim.interfaces;
 
-import com.facebook.react.bridge.WritableMap;
+import com.facebook.react.bridge.ReadableMap;
 import com.videotrim.enums.ErrorCode;
+
+import java.util.Map;
 
 public interface VideoTrimListener {
   void onLoad(int duration);
@@ -11,6 +13,6 @@ public interface VideoTrimListener {
   void onError(String errorMessage, ErrorCode errorCode);
   void onCancel();
   void onSave();
-  void onLog(WritableMap log);
-  void onStatistics(WritableMap statistics);
+  void onLog(ReadableMap log);
+  void onStatistics(ReadableMap statistics);
 }
